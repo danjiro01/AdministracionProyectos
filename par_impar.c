@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool verificarPrimo(int num); 
+bool verificarPrimo(int num); /*Función que devuelve el valor de tipo booleano*/ 
 
 int main () {
   int num;
   printf("Ingrese un número entero: ");
   scanf("%d", &num);
-  if (num < 0) {
+  if (num < 0) { /*Consideracion: no acepta numeros negativos, ya que no son numeros primos*/ 
     printf("ERROR. Ingrese un número positivo");
     return 0;
   }
@@ -25,8 +25,8 @@ bool verificarPrimo (int num) {
     if (num == 0 || num == 1) { 
         return false;
     }
-    for (i = 2; i < num; i++) { /* Se verifica que el numero ingresado sea divisible por 2 */  
-        if (num % i == 0 && i != num) { 
+    for (i = 2; i < num; i++) { /* Se verifica que el numero ingresado sea divisible entre 2 o por si mismo */  
+        if (num % i == 0 && i != num) { /*Comprueba si la division es exacta*/ 
             return false;
         }
     }
