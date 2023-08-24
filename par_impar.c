@@ -6,16 +6,16 @@ bool verificarPrimo(int num); /*Función que devuelve el valor de tipo booleano*
 
 int main () {
   int num;
-  printf("Ingrese un número entero: ");
+  printf("Ingrese un n%cmero entero: ",163);
   scanf("%d", &num);
   if (num < 0) { /*Consideracion: no acepta numeros negativos, ya que no son numeros primos*/ 
-    printf("ERROR. Ingrese un número positivo");
+    printf("ERROR. Ingrese un n%cmero positivo",163);
     return 0;
   }
   if (verificarPrimo(num)) {
-      printf("El número %d es primo", num);
+      printf("El n%cmero %d es primo",163, num);
   } else{
-      printf("El número %d no es primo", num);
+      printf("El n%cmero %d no es primo",163, num);
   }
   return 0;
 }
