@@ -1,0 +1,31 @@
+Sintaxis de C
+
+Recordemos que la  sintaxis del lenguaje de programación C se refiere a las reglas y estructuras que debes seguir al escribir código en C para que el compilador pueda entenderlo correctamente.
+
+Algunos elementos clave de la sintaxis de C:
+
+Declaración de Variables: 
+En C, debes declarar las variables antes de usarlas. La declaración generalmente sigue este formato:
+
+tipo_de_dato nombre_de_variable;
+
+Funciones: 
+Las funciones en C tienen una estructura definida, con un tipo de retorno, un nombre y parámetros (si es necesario). La función main es el punto de entrada en un programa C.
+
+tipo_de_retorno nombre_de_funcion(parametros) {
+    // Cuerpo de la función
+}
+
+Estructuras de Control: 
+Cuenta con estructuras de control estándar, como if, else, while, for, switchque permiten controlar el flujo del programa en función de condiciones o iteraciones.
+
+
+Arreglos: 
+Los arreglos son conjuntos de elementos del mismo tipo. Se declara así:
+ 
+tipo_de_dato nombre_del_arreglo[tamaño];
+
+Punteros: 
+Los punteros almacenan direcciones de memoria. Son fundamentales en C para trabajar con memoria dinámica y referenciar variables.
+
+tipo_de_dato *nombre_del_puntero;
