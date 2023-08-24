@@ -1,3 +1,4 @@
+/* Programa que realiza el calculo de un número primo */
 #include <stdio.h>
 #include <stdbool.h>
 
