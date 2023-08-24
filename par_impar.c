@@ -27,7 +27,7 @@ bool verificarPrimo (int num) {
     }
     for (i = 2; i < num; i++) { /* Se verifica que el numero ingresado sea divisible entre 2 o por si mismo */  
         if (num % i == 0 && i != num) { /*Comprueba si la division es exacta*/ 
-            return false;
+            return false; /*Si la condición "i" no es iguala "num", entonces el número no es primo y la función devuelve "false"*/
         }
     }
     return true;
