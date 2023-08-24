@@ -1,6 +1,6 @@
 /* Programa que determina si un número es primo*/
-#include <stdio.h> /*Biblioteca de c
-#include <stdbool.h> /*Biblioteca de c 
+#include <stdio.h> /*Biblioteca de c*/
+#include <stdbool.h> /*Biblioteca de c*/ 
 
 bool verificarPrimo(int num); /*Función que devuelve el valor de tipo booleano*/ 
 
